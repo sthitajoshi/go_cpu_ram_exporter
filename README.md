@@ -11,5 +11,4 @@ A lightweight Prometheus exporter written in Go that exposes system CPU and RAM 
 ```bash
 docker build -t go-metrics-exporter .
 
-```bash
 docker run -p 8080:8080 go-metrics-exporter
